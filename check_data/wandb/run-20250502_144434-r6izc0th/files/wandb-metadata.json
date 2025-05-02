@@ -1,0 +1,54 @@
+{
+    "os": "macOS-15.4.1-x86_64-i386-64bit",
+    "python": "3.12.10",
+    "heartbeatAt": "2025-05-02T21:44:34.749599",
+    "startedAt": "2025-05-02T21:44:34.061527",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/jose.moreira/miniconda3/envs/mlflow-c9d68ed106e2b443e75f5ac3c56c786fe5eb6018/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:JoseMorei/genre_classification.git",
+        "commit": "3d586d73e1289aee32069c0e721607c750bc94cb"
+    },
+    "email": "jose.moreira@sysdig.com",
+    "root": "/Users/jose.moreira/git/genre_classification",
+    "host": "jose.moreira",
+    "username": "jose.moreira",
+    "executable": "/Users/jose.moreira/miniconda3/envs/mlflow-c9d68ed106e2b443e75f5ac3c56c786fe5eb6018/bin/python3.12",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.546989440918,
+            "used": 10.468093872070312
+        }
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
